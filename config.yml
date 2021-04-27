@@ -1,0 +1,9 @@
+base_model_dir: data_files/model
+base_model: nli-roberta-base
+device: 'cuda'
+bot_mail: tuningbot@salesken.ai
+bot_pwd: ModelTuningBot!@#
+num_epochs: 5
+dim_reduction_algo: 'PCA'
+cluster_rerank_strategy: mmr
+lambda: 0.7
